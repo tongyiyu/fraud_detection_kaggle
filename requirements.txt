@@ -1,3 +1,4 @@
+alembic==1.18.4
 annotated-types==0.7.0
 anyio==4.12.1
 argon2-cffi==25.1.0
@@ -13,6 +14,7 @@ certifi==2026.2.25
 cffi==2.0.0
 charset-normalizer==3.4.4
 colorama==0.4.6
+colorlog==6.10.1
 comm==0.2.3
 contourpy==1.3.2
 cycler==0.12.1
@@ -26,6 +28,7 @@ fastjsonschema==2.21.2
 filetype==1.2.0
 fonttools==4.61.1
 fqdn==1.5.1
+greenlet==3.3.2
 h11==0.16.0
 httpcore==1.0.9
 httpx==0.28.1
@@ -57,6 +60,7 @@ jupyterlab_widgets==3.0.16
 kiwisolver==1.4.9
 lark==1.3.1
 llvmlite==0.45.1
+Mako==1.3.10
 MarkupSafe==3.0.3
 matplotlib==3.10.0
 matplotlib-inline==0.2.1
@@ -72,10 +76,10 @@ notebook==7.5.4
 notebook_shim==0.2.4
 numba==0.62.1
 numpy==2.2.6
+optuna==4.7.0
 overrides==7.7.0
 packaging==26.0
 pandas==2.3.3
-pandas-profiling==3.6.6
 pandocfilters==1.5.1
 parso==0.8.6
 patsy==1.0.2
@@ -111,6 +115,7 @@ seaborn==0.13.2
 Send2Trash==2.1.0
 six==1.17.0
 soupsieve==2.8.3
+SQLAlchemy==2.0.47
 stack-data==0.6.3
 statsmodels==0.14.6
 terminado==0.18.1
@@ -133,4 +138,14 @@ webencodings==0.5.1
 websocket-client==1.9.0
 widgetsnbextension==4.0.15
 wordcloud==1.9.6
+xgboost==3.2.0
 ydata-profiling==4.18.1
+gunicorn>=21.0.0
+flask>=2.0.0  # 若用Flask，根据你的框架调整
+fastapi>=0.100.0  # 若用FastAPI
+uvicorn>=0.23.2
+scikit-learn>=1.2.0
+xgboost>=1.7.6
+numpy>=1.24.0
+pandas>=1.5.0
+joblib>=1.3.0
